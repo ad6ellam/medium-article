@@ -1,0 +1,36 @@
+body {
+    color: #494949;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: 292929;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h2 {
+    color: 292929;
+    font-weight: regular;
+    font-size: 20px;
+}
+
+.banner {
+    background-image: url('https://source.unsplash.com/collection/3491181/1000x500');
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+}
+
+.banner h1 {
+    font-size: 38px;
+}
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+}
