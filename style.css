@@ -25,6 +25,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+
 }
 
 .banner {
@@ -38,7 +39,7 @@ p {
     font-size: 38px;
 }
 
-.container {
+.centered-container {
     width: 700px;
     margin: 50px auto;
     display: inline-block;
@@ -67,3 +68,38 @@ p {
   text-decoration: none;
   background-color: 142534;
   color:white;
+}
+
+@media(max-width: 900px) {
+  .centered-container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .centered-container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .centered-container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
