@@ -19,6 +19,14 @@ h2 {
     font-size: 20px;
 }
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 .banner {
     background-image: url('https://source.unsplash.com/collection/3491181/1000x500');
     background-size: cover;
@@ -34,3 +42,23 @@ h2 {
     width: 700px;
     margin: 50px auto;
 }
+
+.link-medium {
+  color: 142534;
+  border: solid #142534;
+  background-color: white;
+  border-radius: 50px;
+  padding: 15px 20px;
+  font-weight: normal;
+  opacity: 0.6;
+  display: inline-block;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.link-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  background-color: 142534;
+  color:white;
